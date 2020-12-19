@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Perro
+comment1.params=velocidad
+comment1.target=Perro(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ IAperro()
+comment4.params=
+comment4.target=void\ animacionConFrameContainer()
+comment5.params=xPresa\ x\ yPresa\ y
+comment5.target=void\ persegirPresa(int,\ int,\ int,\ int)
+numComments=6

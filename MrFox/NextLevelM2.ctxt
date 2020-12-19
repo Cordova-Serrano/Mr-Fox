@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=NextLevelM2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ NextLevelM2\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dificultad\ noPerros\ noArbustos\ velPerro\ comida\ vida
+comment1.target=NextLevelM2(int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=dificultad\ noPerros\ noArbustos\ velPerro\ comida\ vida
+comment2.target=NextLevelM2\ getNextLevelM2(int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ act()
+numComments=4

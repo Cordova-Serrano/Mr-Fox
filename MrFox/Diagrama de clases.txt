@@ -1,0 +1,8 @@
+Clases:
+- Zorro //Protagonista
+- Perro //Enemigo 
+- Cazador //Boss
+- Crias
+- Alimento = Gallina //
+- Madriguera
+- 

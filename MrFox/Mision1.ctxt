@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Mision1
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Mision1\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=dificultad\ noPerros\ noArbustos\ velPerro
+comment1.target=Mision1(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Mision1.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ missionComplete()
+comment5.params=
+comment5.target=void\ spawnTrees()
+comment6.params=noArbustos
+comment6.target=void\ spawnBushes(int)
+comment7.params=noPerros\ velPerro
+comment7.target=void\ spawnDogs(int,\ int)
+comment8.params=
+comment8.target=void\ youLose()
+numComments=9

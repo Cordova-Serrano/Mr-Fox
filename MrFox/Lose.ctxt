@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Lose
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lose\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Lose()
+comment2.params=
+comment2.target=Lose\ getLose()
+comment3.params=
+comment3.target=YouLose\ getYouLose()
+comment4.params=
+comment4.target=Exit\ getExit()
+comment5.params=dificultad\ noPerros\ noArbustos\ velPerro
+comment5.target=TryAgainM1\ getTryAgainM1(int,\ int,\ int,\ int)
+comment6.params=dificultad\ noPerros\ noArbustos\ velPerro\ comida\ vida
+comment6.target=TryAgainM2\ getTryAgainM2(int,\ int,\ int,\ int,\ int,\ int)
+comment7.params=dificultad\ noPerros\ noArbustos\ velPerro\ comida\ vida
+comment7.target=TryAgainM3\ getTryAgainM3(int,\ int,\ int,\ int,\ int,\ int)
+numComments=8

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Disparo
+comment1.params=velocidad
+comment1.target=Disparo(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ Trayectoria()
+comment4.params=
+comment4.target=void\ animacionConFrameContainer()
+comment5.params=
+comment5.target=void\ colisionZorro()
+numComments=6

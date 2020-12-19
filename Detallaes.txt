@@ -1,0 +1,4 @@
+Problemas:
+- Archivo funciona pero no se utilizo
+- canMoveTop y Bot, logica no funciona
+- Musica no para en Mision 1

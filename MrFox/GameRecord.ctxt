@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GameRecord
+comment1.params=
+comment1.target=GameRecord()
+comment2.params=
+comment2.target=GameRecord\ getGameRecord()
+comment3.params=vida\ comida\ mision
+comment3.target=boolean\ setFile(int,\ int,\ int)
+comment4.params=nameFile
+comment4.target=int[]\ readFile(java.lang.String)
+numComments=5

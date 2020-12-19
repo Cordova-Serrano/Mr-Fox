@@ -1,0 +1,113 @@
+Index: MrFox/Zorro.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- MrFox/Zorro.java	(revision bfbbbd075b064120fa9c463910ccaa4f02fe635f)
++++ MrFox/Zorro.java	(date 1590281750529)
+@@ -22,13 +22,18 @@
+     public void act()
+     {
+         control();
++        animacionConFrameContainer();
++        cazar();
++    }
++
++    public void animacionConFrameContainer(){
+         if(xDirection==1) {
+             frameContainer.animacion(framesWalkDer, this);
+         } else {
+             frameContainer.animacion(framesWalkIzq, this);
+         }
+     }
+-
++    
+     public void control(){
+         key = Greenfoot.getKey();
+         int x = getX();
+@@ -58,6 +63,17 @@
+         setLocation(x,y);
+ 
+     }
++    
++    public void cazar(){
++        Actor Conejo;
++        Conejo = getOneObjectAtOffset(0,0,Conejo.class);
++        if(Conejo != null){
++            World detect;
++            detect = getWorld();
++            detect.removeObject(Conejo);
++        }
++    }
++    
+    public boolean canMoveLeft(){
+        boolean canMove =  true;
+        
+Index: MrFox/Zorro.ctxt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- MrFox/Zorro.ctxt	(revision bfbbbd075b064120fa9c463910ccaa4f02fe635f)
++++ MrFox/Zorro.ctxt	(date 1590281755125)
+@@ -6,13 +6,17 @@
+ comment2.params=
+ comment2.target=void\ act()
+ comment3.params=
+-comment3.target=void\ control()
++comment3.target=void\ animacionConFrameContainer()
+ comment4.params=
+-comment4.target=boolean\ canMoveLeft()
++comment4.target=void\ control()
+ comment5.params=
+-comment5.target=boolean\ canMoveRight()
++comment5.target=void\ cazar()
+ comment6.params=
+-comment6.target=boolean\ canMoveTop()
++comment6.target=boolean\ canMoveLeft()
+ comment7.params=
+-comment7.target=boolean\ canMoveBot()
+-numComments=8
++comment7.target=boolean\ canMoveRight()
++comment8.params=
++comment8.target=boolean\ canMoveTop()
++comment9.params=
++comment9.target=boolean\ canMoveBot()
++numComments=10
+diff --git MrFox/Zorro.class MrFox/Zorro.class
+index b9bf1a2f000e2e9908513782c71a079b9cbedc95..db7f4a038eb2309b5e11268de75b2a1337c9e832
+GIT binary patch
+literal 3337
+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
+Jep+oweFyTRx3mBN
+

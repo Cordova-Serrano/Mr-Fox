@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=
+comment1.target=void\ act()
+comment2.params=velocity
+comment2.target=Personaje(int)
+comment3.params=cambio
+comment3.target=void\ moverseEnDireccionesAleatorias(int)
+numComments=4

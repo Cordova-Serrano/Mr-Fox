@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SaveGame
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SaveGame\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=vida\ comida\ mision\ dificultad\ noPerros\ noArbustos\ velPerro
+comment1.target=SaveGame(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment2.params=vida\ comida\ mision\ dificultad\ noPerros\ noArbustos\ velPerro
+comment2.target=SaveGame\ getSaveGame(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=vida\ comida\ mision\ dificultad\ noPerros\ noArbustos\ velPerro
+comment4.target=void\ setAll(int,\ int,\ int,\ int,\ int,\ int,\ int)
+numComments=5
